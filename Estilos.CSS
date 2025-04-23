@@ -1,0 +1,91 @@
+.classButton{
+    font-size: ;
+}
+
+.clase_Sticky {
+    position:sticky;
+    font-size: 40px;
+    top: 0px;
+    left:40px;
+    height: 300px;
+
+}
+.tipoflex {
+    display: flex;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.claseNav {
+    background-color: beige;
+    font-size: 25px;
+    padding-inline: 0;
+    color: brown;
+    display: inline;
+    list-style-type: none;
+}
+
+.textomorado:hover { /* pseudoclase que afecta al posicionarte con mouse */
+    background-color: rgb(255, 127, 249);
+    color: rgb(51, 95, 6);
+}
+
+
+
+.button{
+    border:0;
+    background-image: linear-gradient(
+        150deg,
+        #9500,
+        #09F,
+        #00DDFF
+    );
+    border-radius: 8px;
+color:#fff;
+display: flex;
+font-size: 18px;
+padding: 4px;
+cursor: pointer;
+transition: .3s;
+}
+
+
+.button span{
+    background-color: #111;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
+}
+.button:hover span {
+    background: none;
+}
+.button:active {
+    transform: scale(0,9)
+}
+
+.rectángulo{
+   width: 100%;
+   height: 80px;
+   background-color: rgb(42, 238, 196);
+   position: relative;
+   font-size: 45px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+
+   
+    
+    position: absolute;
+}
+
+.container{
+    display: flex;
+    width: 190px;
+    height: 50px;
+    color: #fff;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+
